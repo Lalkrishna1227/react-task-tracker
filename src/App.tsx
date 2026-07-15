@@ -121,6 +121,7 @@ function App() {
       <div className="footer">
         <span>{activeCount} item(s) left</span>
         <button onClick={clearCompleted}>Clear completed</button>
+        <button onClick={sortByDate}>Sort by newest</button>
       </div>
     </div>
   );
