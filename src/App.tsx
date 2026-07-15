@@ -65,6 +65,10 @@ function App() {
     setTasks((prev) => prev.filter((t) => !t.completed));
   };
 
+  const sortByDate = () => {
+    setTasks((prev) => [...prev].sort((a, b) => b.createdAt - a.createdAt));
+  };
+
   const visibleTasks = tasks.filter((t) => {
     if (filter === 'active') return !t.completed;
     if (filter === 'completed') return t.completed;
