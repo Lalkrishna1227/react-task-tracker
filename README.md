@@ -6,6 +6,7 @@ A small, focused task tracker built with React and TypeScript to demonstrate cle
 
 - Add, complete, and delete tasks
 - Filter tasks by All / Active / Completed
+- Sort tasks by newest
 - Tasks persist in localStorage between sessions
 - Fully typed with TypeScript interfaces
 
@@ -15,7 +16,7 @@ React 18, TypeScript, Create React App, CSS
 
 ## Getting Started
 
-```bash
+```
 npm install
 npm start
 ```
